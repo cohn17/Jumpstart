@@ -1,0 +1,108 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 10px;
+}
+
+.btn {
+  background-color: #399bd1;
+  padding: 1.3rem 0;
+  width: 11.4rem;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
+}
+
+/*Navigation bar*/
+
+.navbar {
+  display: flex;
+  min-height 0;
+  margin-bottom: 0;
+  z-index: 5;
+}
+
+ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  list-style-type: none;
+}
+
+li {
+  padding: 0.75rem 0;
+  font-size: 1.1rem;
+}
+
+#active {
+  color: #399bd1;
+}
+
+.mobile {
+  display: flex;
+  width: 100%;
+}
+
+.desktop {
+  display: none;
+}
+
+.desktop ul {
+  flex-direction: row;
+}
+
+@media only screen and (min-width: 769px) {
+
+  .desktop {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+
+  .desktop ul {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .desktop li {
+    padding-right: 4rem;
+  }
+
+  .desktop img {
+    height: 1.5rem;
+  }
+
+  .mobile {
+    display: none;
+  }
+}
+
+/*Jumbotron*/
+
+.jumbotron {
+  padding: 11.85rem 0;
+  text-align: center;
+  color: white;
+  text-shadow: -1px -1px black, 1px -1px black, -1px 1px black, 1px 1px black;
+  background-image: url("../../images/jumbotron-bike.jpg");
+}
+
+h1 {
+  font-family: 'Monoton', cursive;
+  font-size: 7.1rem;
+  text-transform: lowercase;
+}
+
+.jumbotron p {
+  padding: 2.8rem 0;
+}
+
+/*Featured project*/
+
+.featured .container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+@media only screen and (min-width: 769px) {
+
+}
