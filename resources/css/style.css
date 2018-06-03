@@ -40,6 +40,7 @@ ul {
   flex-direction: column;
   justify-content: space-between;
   list-style-type: none;
+  margin-bottom: 0;
 }
 
 li {
