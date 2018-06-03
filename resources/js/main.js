@@ -1,12 +1,12 @@
 $(document).ready(function() {
   $('.carousel').slick({
-    autoplay: true,
-    infinte: true,
-    slidesToShow: 1,
     arrows: false,
-    speed: 4000,
+    autoplay: true,
+    draggable: false,
+    infinite: true,
     pauseOnHover: false,
     pauseOnFocus: false,
-    swipeToSlide: false
+    slidesToShow: 1,
+    speed: 4000
   });
 });
