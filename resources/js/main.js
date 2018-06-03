@@ -1,8 +1,12 @@
 $(document).ready(function(){
-  $(button).hover(function(){
-    $(this).toggleClass('hover');
-  });
-  $(button).active(function(){
-    $(this).css("box-shadow","0 0 0 rgba(0, 0, 0, 0.5)");
+  $('.carousel').slick({
+    autoplay: true,
+    infinte: true,
+    slidesToShow: 1,
+    arrows: false,
+    speed: 4000,
+    pauseOnHover: false,
+    pauseOnFocus: false,
+    swipeToSlide: false
   });
 });
