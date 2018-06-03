@@ -10,12 +10,12 @@ $(document).ready(function() {
     speed: 4000
   });
   $(window).scroll(function() {
-    if ($(document).scrollTop > 50) {
+    if ($(document).scrollTop() > 50) {
       $('.navbar').css({top:"-50px"});
     }
     else {
       $('.navbar').css({top:"0px"});
     }
   });
-
+  $('.btn-primary').click.css("background-color", "#0431b4");
 });
