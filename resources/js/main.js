@@ -2,12 +2,12 @@ $(document).ready(function() {
   $('.carousel').slick({
     arrows: false,
     autoplay: true,
+    autoplaySpeed: 4000,
     draggable: false,
     infinite: true,
     pauseOnHover: false,
     pauseOnFocus: false,
-    slidesToShow: 1,
-    speed: 4000
+    slidesToShow: 1
   });
   $(window).scroll(function() {
     if ($(document).scrollTop() > 50) {

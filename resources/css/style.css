@@ -155,7 +155,7 @@ li {
   background-position: center;
 }
 
-h1 {
+.jumbotron h1 {
   font-family: 'Monoton', cursive;
   font-size: 5.7rem;
   text-transform: lowercase;
@@ -166,7 +166,7 @@ h1 {
 }
 
 @media only screen and (min-width: 769px) {
-  h1 {
+  .jumbotron h1 {
     font-size: 7.1rem;
   }
 }
